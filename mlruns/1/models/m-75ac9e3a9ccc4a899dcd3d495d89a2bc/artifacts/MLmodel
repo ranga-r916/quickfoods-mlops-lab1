@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/Dell/Downloads/quickfoods-mlops-lab1/mlruns/1/models/m-75ac9e3a9ccc4a899dcd3d495d89a2bc/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-75ac9e3a9ccc4a899dcd3d495d89a2bc
+model_size_bytes: 657
+model_uuid: m-75ac9e3a9ccc4a899dcd3d495d89a2bc
+prompts: null
+run_id: 2fe14cc5f21a48c2bac069f7cf30f78e
+utc_time_created: '2026-05-02 05:35:31.928148'
